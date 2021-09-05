@@ -14,3 +14,5 @@ async def read_item(request: Request, id: str):
     return templates.TemplateResponse("item.html", {"request": request, "id": id})
 
 # ref. https://fastapi.tiangolo.com/advanced/templates/
+# ref. https://fastapi.tiangolo.com/tutorial/
+# ref. uvicorn main:app --reload
